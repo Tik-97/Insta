@@ -15,7 +15,6 @@ function MessengerChatSection() {
 			...usersData.find(user => user.id === activeUserId)
 		}
 	)
-
 	,[activeUserId])
   return (
 	 <div className='Messenger-right-col'>
